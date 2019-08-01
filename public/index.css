@@ -1,0 +1,184 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Avenir Next';
+    /* background-color: #182952; */
+  }
+  
+  #leftSection {
+    width: 20%;
+    background-color: #1B3764;
+    height: 100vh;
+  }
+  #leftSection p {
+    height: 73px;
+    line-height: 73px;
+    color: #fff;
+    margin-bottom: 100px;
+    font-size: 40px;
+    font-family: 'Roboto Slab';
+    text-align: center;
+    box-shadow: #000 0px 1px 1px;
+  }
+  
+  #list {
+    display: block;
+  }
+  #list a{
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Avenir Next';
+    font-weight: 500;
+    color: #fff;
+    /* padding: 22px 10px; */
+    font-size: 20px;
+    
+  }
+  #list a li{
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Avenir Next';
+    font-weight: 500;
+    color: #fff;
+    padding: 22px 20px;
+    font-size: 20px;
+    
+  }
+  #list .router-link-active li{
+      background-color: #122645;
+      border-left: 4px solid #fff;
+      text-decoration: none;
+      list-style: none;
+
+  }
+
+
+  #list li:hover {
+    background-color: #122645;
+    /* border-left: 4px solid #fff; */
+  }
+  
+  
+  #rightSection {
+    width: 80%;
+    height: 100vh;
+  }
+  #rightSection #top {
+    height: 73px;
+    background-color: #f5f5f5;
+    box-shadow: #000 0px 1px 1px;
+  }
+  #rightSection #top #user {
+    float: right;
+    padding-top: 25px;
+    margin-right: 60px;
+  }
+  #rightSection #top #user p {
+    display: inline;
+    font-family: 'Avenir Next';
+    font-weight: 500;
+    margin-right: 10px;
+  }
+  #rightSection #top #user img {
+    width: 37px;
+    height: 37px;
+    float: right;
+    margin-top: -8px;
+  }
+  #rightSection .container {
+    width: 92%;
+    margin: 0px auto;
+    margin-top: 100px;
+  }
+  #rightSection .container #totalScore {
+    font-size: 100px;
+    display: inline;
+    font-weight: 600;
+  }
+  #rightSection .container #totalScoreTitle {
+    display: inline;
+  }
+  #rightSection .container #fromThat {
+    margin: 60px 0px 15px 0px;
+    margin-left: 30px;
+  }
+  #rightSection .container .container_section {
+    display: flex;
+    margin-left: 30px;
+  }
+  #rightSection .container .container_section .container_left {
+    width: 50%;
+  }
+  #rightSection .container .container_section .container_left .statText {
+    margin: 20px 0px;
+  }
+  #rightSection .container .container_section .container_left .number {
+    display: inline;
+    font-size: 45px;
+    font-weight: 500;
+  }
+  #rightSection .container .container_section .container_left .textTitle {
+    display: inline;
+    font-size: 20px;
+    margin-left: 15px;
+  }
+  #rightSection .container .container_section .container_right {
+    width: 50%;
+  }
+  #rightSection .container .container_section .container_right .statText {
+    margin: 20px 0px;
+  }
+  #rightSection .container .container_section .container_right .number {
+    display: inline;
+    font-size: 45px;
+    font-weight: 500;
+  }
+  #rightSection .container .container_section .container_right .textTitle {
+    display: inline;
+    font-size: 20px;
+    margin-left: 15px;
+  }
+  
+  main {
+    display: flex;
+  }
+  .container .form_enter_data {
+    padding: 0px auto;
+    margin: 0px auto;
+    display: block;
+    width: 500px;
+  }
+  .container .form_enter_data .field {
+    margin: 10px 0px;
+    width: 97.6%;
+    padding: 10px 0px;
+    padding-left: 10px;
+    font-size: 20px;
+    border: 1px solid #979797;
+    border-radius: 4px;
+  }
+  .container .form_enter_data .btn {
+    margin: 10px 0px;
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 4px;
+    background-color: #1B3764;
+    color: #fff;
+    font-size: 20px;
+  }
+  main #rightSection .wrapper .adminStats {
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 40px;
+  }
+  main #rightSection .wrapper .adminStats table {
+    width: 100%;
+  }
+  main #rightSection .wrapper .adminStats table td {
+    padding: 15px 10px;
+    border-bottom: 1px dashed #979797;
+  }
+  
+  
+  /*# sourceMappingURL=index.css.map */
+  

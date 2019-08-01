@@ -1,5 +1,4 @@
-# drink-tea - not real name
-# real name is TPA - teachers performance analysis
+# drink-tea
 
 ## Project setup
 ```
